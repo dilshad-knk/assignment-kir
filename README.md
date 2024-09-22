@@ -4,7 +4,7 @@
 [View the live project here](https://wefo-assignment.vercel.app/)
 
 ## Project Overview
-This project is a responsive web application showcasing a modern, dark-themed design for a portfolio or agency website. It features a project showcase section and a team member display, demonstrating advanced layout techniques and interactive elements.
+This project is a responsive web application showcasing a modern, dark-themed design for a portfolio or agency website.
 
 ## Technologies Used
 - React.js
