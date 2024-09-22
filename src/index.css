@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Outer Shadow */
+@layer utilities {
+  .shadow-custom {
+    box-shadow: 0px 0px 230px 200px rgba(64, 52, 235, 0.5), 0px 0px 100px 0px rgba(255, 255, 255, 0.5);
+  }
+}
+
+/* Inner Shadow */
+@layer utilities {
+  .shadow-custom-inner {
+    box-shadow: 
+      inset 0px 0px 230px 200px rgba(64, 52, 235, 0.5), 
+      inset 0px 0px 100px 0px rgba(255, 255, 255, 0.5);
+  }
+}
+
+/* Combined Inner and Outer Shadow */
+@layer utilities {
+  .shadow-custom-combined {
+    box-shadow: 
+    0px 0px 230px 200px rgba(64, 52, 235, 0.6),
+    0px 0px 100px 0px rgba(255, 255, 255, 0.9),
+    inset 0px 0px 230px 200px rgba(64, 52, 235, 0.5),
+    inset -100px 0px 100px -50px rgba(0, 0, 0, 0.7),
+    inset 100px 100px 100px -60px rgba(255, 255, 255, 1);
+  }
+}
+
+body {
+  background-color: black;
+}
