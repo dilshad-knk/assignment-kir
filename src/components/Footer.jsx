@@ -10,7 +10,7 @@ import ContactForm from "./ContactForm";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white px-10 md:pt-20 md:px-20 ">
+    <footer className="bg-gray-900 text-white px-9 md:pt-20 md:px-20 ">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between">
           <div className="mb-4 md:mb-2 ">
